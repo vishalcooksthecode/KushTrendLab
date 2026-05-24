@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiEdit3, FiFilm, FiRectangle, FiBirthday } from 'react-icons/fi';
+import { FiEdit3, FiFilm, FiSmartphone, FiGift } from 'react-icons/fi';
 
 const Services = () => {
   const services = [
@@ -19,14 +19,14 @@ const Services = () => {
       features: ['Full Editing', 'Music & Sound', 'Transitions', 'Effects'],
     },
     {
-      icon: FiRectangle,
+      icon: FiSmartphone,
       title: 'Short Form Video Editing',
       price: '₹1,099',
       description: 'Reels & TikTok',
       features: ['Quick Turnaround', 'Trending Effects', 'Text Animation', 'HD Export'],
     },
     {
-      icon: FiBirthday,
+      icon: FiGift,
       title: 'Birthday Reel Editing',
       price: '₹1,099',
       description: 'Special Occasion',

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiCamera, FiVideo, FiCameraOff, FiCake } from 'react-icons/fi';
+import { FiCamera, FiVideo, FiCameraOff, FiStar } from 'react-icons/fi';
 
 const VideoShootServices = () => {
   const shoots = [
@@ -29,7 +29,7 @@ const VideoShootServices = () => {
       features: ['4-6 Hours', 'Professional Crew', 'Multiple Takes', '4K Quality'],
     },
     {
-      icon: FiCake,
+      icon: FiStar,
       title: 'Birthday Shoot',
       price: '₹1,499',
       addon: '+ Convenience Charges',
